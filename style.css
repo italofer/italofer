@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+body {
+    background-image: linear-gradient(to left,rgb(18, 11, 49), rgb(13, 9, 31));
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+.cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cabecalho>div{
+    width: 50%;
+}
+a {
+    text-decoration: none;
+}
